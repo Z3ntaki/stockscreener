@@ -3,14 +3,90 @@
     "ticker": "TCS",
     "name": "Tata Consultancy Services",
     "threshold_pct": 3.0,
-    "support": 1900,
-    "resistance": 2200
+    "support": 3800,
+    "resistance": 4200,
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
   },
   {
     "ticker": "RELIANCE",
     "name": "Reliance Industries",
+    "threshold_pct": 3.0,
+    "support": 2800,
+    "resistance": 3100,
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HDFCBANK",
+    "name": "HDFC Bank",
+    "threshold_pct": 3.0,
+    "support": 1400,
+    "resistance": 1700,
+    "volume_multiplier": 1.5,
+    "sentiment_pct": 4.0
+  },
+  {
+    "ticker": "INFY",
+    "name": "Infosys",
+    "threshold_pct": 4.0,
+    "support": 1400,
+    "resistance": 1750,
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ICICIBANK",
+    "name": "ICICI Bank",
+    "threshold_pct": 3.0,
+    "support": 1000,
+    "resistance": 1200,
+    "volume_multiplier": 1.5,
+    "sentiment_pct": 4.0
+  },
+  {
+    "ticker": "ITC",
+    "name": "ITC Limited",
     "threshold_pct": 2.5,
-    "support": 1300,
-    "resistance": 1600
+    "support": 400,
+    "resistance": 500,
+    "volume_multiplier": 2.5,
+    "sentiment_pct": 4.0
+  },
+  {
+    "ticker": "SBIN",
+    "name": "State Bank of India",
+    "threshold_pct": 3.5,
+    "support": 700,
+    "resistance": 850,
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BHARTIARTL",
+    "name": "Bharti Airtel",
+    "threshold_pct": 3.0,
+    "support": 1100,
+    "resistance": 1350,
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LT",
+    "name": "Larsen & Toubro",
+    "threshold_pct": 3.0,
+    "support": 3300,
+    "resistance": 3800,
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TATAMOTORS",
+    "name": "Tata Motors",
+    "threshold_pct": 4.0,
+    "support": 900,
+    "resistance": 1100,
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 6.0
   }
 ]
