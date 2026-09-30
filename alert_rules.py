@@ -49,6 +49,47 @@ class AlertEngine:
             }
             self._save_state()
 
+    def _get_news_and_sentiment(self, ticker: str) -> str:
+        try:
+            import yfinance as yf
+            try:
+                from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+            except ImportError:
+                return "\n\n(Sentiment analysis library not installed)"
+                
+            analyzer = SentimentIntensityAnalyzer()
+            news = yf.Ticker(f"{ticker}.NS").news
+            
+            if not news:
+                return "\n\n📰 No recent news found."
+                
+            news_text = "\n\n📰 <b>Latest News & Sentiment:</b>\n"
+            for item in news[:2]:
+                content = item.get('content', {})
+                if not content:
+                    continue
+                title = content.get('title', '')
+                url_data = content.get('clickThroughUrl', {})
+                link = url_data.get('url', '') if url_data else ''
+                
+                # Calculate Sentiment
+                score = analyzer.polarity_scores(title)
+                compound = score['compound']
+                if compound >= 0.05:
+                    sentiment = "🟢 POSITIVE"
+                elif compound <= -0.05:
+                    sentiment = "🔴 NEGATIVE"
+                else:
+                    sentiment = "⚪ NEUTRAL"
+                    
+                news_text += f"• {title} [{sentiment}]\n"
+                if link:
+                    news_text += f"  <a href='{link}'>Read article</a>\n"
+            return news_text
+        except Exception as e:
+            logger.warning(f"Failed to fetch news for {ticker}: {e}")
+            return ""
+
     def check_alerts(self, quote: dict, watch_config: dict) -> list[str]:
         """Returns a list of alert messages to send, and updates state."""
         self._rotate_state_if_needed()
@@ -128,6 +169,11 @@ class AlertEngine:
                     alerts.append(msg)
                     ticker_history.append("volume_breakout")
                 
+        # Append news only if we have alerts
+        if alerts:
+            news_info = self._get_news_and_sentiment(ticker)
+            alerts = [a + news_info for a in alerts]
+            
         # Update daily cap count based on how many we are actually going to send
         alerts_to_send = []
         for alert in alerts:
