@@ -1,10 +1,8 @@
 name: NSE Stock Alert Tool
 
 on:
-  schedule:
-    # Runs every 15 minutes between 3:00 AM and 10:45 AM UTC (Mon-Fri)
-    # This covers 8:30 AM to 4:15 PM IST
-    - cron: '*/15 3-10 * * 1-5'
+  # schedule:
+  #   - cron: '*/15 3-10 * * 1-5'
   workflow_dispatch: # Allows manual triggering
 
 jobs:
