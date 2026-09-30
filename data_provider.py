@@ -14,7 +14,7 @@ class DataProvider(abc.ABC):
 
     @abc.abstractmethod
     def get_quote(self, ticker: str) -> dict | None:
-        """Returns dict with keys: ticker, price, prev_close, source, timestamp_ist"""
+        """Returns dict with keys: ticker, price, prev_close, source, timestamp_ist, volume, avg_volume"""
         pass
 
 class JugaadDataProvider(DataProvider):
@@ -37,11 +37,14 @@ class JugaadDataProvider(DataProvider):
             
             if price is None or prev_close is None:
                 raise ValueError("Missing price or prev_close in response")
-                
+            volume = trade_info.get('totalTradedVolume') or trade_info.get('quantitytraded')
+            
             return {
                 "ticker": ticker,
                 "price": float(price),
                 "prev_close": float(prev_close),
+                "volume": float(volume) if volume else None,
+                "avg_volume": None, # Requires historical fetch, rely on yfinance for this feature
                 "source": self.name,
                 "timestamp_ist": datetime.datetime.now(ZoneInfo("Asia/Kolkata")).isoformat()
             }
@@ -69,11 +72,15 @@ class NsePythonDataProvider(DataProvider):
                 
             if price is None or prev_close is None:
                 raise ValueError("Missing price or prev_close in response")
+            volume = q.get('priceInfo', {}).get('lastPrice') # Just placeholder, let's look for volume
+            # nsepython doesn't easily expose average volume without history
                 
             return {
                 "ticker": ticker,
                 "price": float(price),
                 "prev_close": float(prev_close),
+                "volume": None,
+                "avg_volume": None,
                 "source": self.name,
                 "timestamp_ist": datetime.datetime.now(ZoneInfo("Asia/Kolkata")).isoformat()
             }
@@ -96,6 +103,8 @@ class YFinanceDataProvider(DataProvider):
             # Fields vary slightly based on market state
             current_price = info.get('currentPrice') or info.get('regularMarketPrice')
             prev_close = info.get('previousClose') or info.get('regularMarketPreviousClose')
+            volume = info.get('volume') or info.get('regularMarketVolume')
+            avg_volume = info.get('averageVolume') or info.get('averageVolume10days')
             
             if current_price is None or prev_close is None:
                 raise ValueError("Missing price or prev_close in response")
@@ -104,6 +113,8 @@ class YFinanceDataProvider(DataProvider):
                 "ticker": ticker,
                 "price": float(current_price),
                 "prev_close": float(prev_close),
+                "volume": float(volume) if volume else None,
+                "avg_volume": float(avg_volume) if avg_volume else None,
                 "source": self.name,
                 "timestamp_ist": datetime.datetime.now(ZoneInfo("Asia/Kolkata")).isoformat()
             }

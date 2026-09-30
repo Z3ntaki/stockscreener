@@ -98,6 +98,36 @@ class AlertEngine:
                 alerts.append(msg)
                 ticker_history.append("resistance")
                 
+        # Rule 3: Heavy Volume with Positive Sentiment (5-10% UP)
+        volume = quote.get('volume')
+        avg_volume = quote.get('avg_volume')
+        
+        # If the current provider didn't return avg_volume (e.g. jugaad-data), we could 
+        # try fetching it specifically here from yfinance if it's important. 
+        # For now, if we have it, we evaluate:
+        if not avg_volume and quote['source'] != 'yfinance':
+            # Try fetching from yfinance just for this rule
+            try:
+                import yfinance as yf
+                yf_info = yf.Ticker(f"{ticker}.NS").info
+                volume = volume or yf_info.get('volume') or yf_info.get('regularMarketVolume')
+                avg_volume = yf_info.get('averageVolume') or yf_info.get('averageVolume10days')
+            except Exception as e:
+                logger.debug(f"Could not fetch avg_volume for {ticker} from yf: {e}")
+
+        if volume and avg_volume:
+            vol_multiplier = watch_config.get('volume_multiplier', 1.5)
+            sentiment_pct = watch_config.get('sentiment_pct', 5.0)
+            
+            if volume > (avg_volume * vol_multiplier) and pct_change >= sentiment_pct:
+                if "volume_breakout" not in ticker_history:
+                    msg = (f"🚀 {ticker} HEAVY TRADE ALERT!\n"
+                           f"Price: {price} ({pct_change:.2f}% UP)\n"
+                           f"Volume: {volume:,} (Avg: {avg_volume:,})\n"
+                           f"Source: {quote['source']} at {quote['timestamp_ist']}")
+                    alerts.append(msg)
+                    ticker_history.append("volume_breakout")
+                
         # Update daily cap count based on how many we are actually going to send
         alerts_to_send = []
         for alert in alerts:

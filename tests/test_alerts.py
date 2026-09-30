@@ -129,3 +129,27 @@ def test_provider_fallback(jugaad_mock, nse_mock, yf_mock):
     assert jugaad_mock.called
     assert nse_mock.called
     assert yf_mock.called
+
+def test_volume_breakout(temp_state_file, mock_config):
+    engine = AlertEngine(mock_config, temp_state_file)
+    quote = {
+        "ticker": "TEST",
+        "price": 106.0,
+        "prev_close": 100.0,
+        "volume": 3000,
+        "avg_volume": 1000,
+        "source": "mock",
+        "timestamp_ist": "2023-01-01T12:00:00"
+    }
+    # 6% move and 3x volume
+    watch_config = {
+        "ticker": "TEST",
+        "threshold_pct": 10.0, # ensure threshold doesn't trigger
+        "volume_multiplier": 2.0,
+        "sentiment_pct": 5.0
+    }
+    
+    alerts = engine.check_alerts(quote, watch_config)
+    assert len(alerts) == 1
+    assert "HEAVY TRADE ALERT!" in alerts[0]
+    assert "Volume: 3,000 (Avg: 1,000)" in alerts[0]
