@@ -9,7 +9,7 @@ providers:
   - yfinance
 
 limits:
-  daily_alert_cap: 10
+  daily_alert_cap: 100
 
 retry:
   attempts: 3
