@@ -1,0 +1,16 @@
+market_hours:
+  start: "09:15"
+  end: "15:30"
+  timezone: "Asia/Kolkata"
+
+providers:
+  - jugaad-data
+  - nsepython
+  - yfinance
+
+limits:
+  daily_alert_cap: 10
+
+retry:
+  attempts: 3
+  backoff_factor: 2

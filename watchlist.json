@@ -1,0 +1,16 @@
+[
+  {
+    "ticker": "TCS",
+    "name": "Tata Consultancy Services",
+    "threshold_pct": 3.0,
+    "support": 1900,
+    "resistance": 2200
+  },
+  {
+    "ticker": "RELIANCE",
+    "name": "Reliance Industries",
+    "threshold_pct": 2.5,
+    "support": 1300,
+    "resistance": 1600
+  }
+]
