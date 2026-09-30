@@ -90,8 +90,8 @@ def main():
         logger.error(f"Failed to load watchlist.json: {e}")
         sys.exit(1)
         
-    if not isinstance(watchlist, list) or len(watchlist) > 10:
-        logger.error("Watchlist must be a list of up to 10 stocks.")
+    if not isinstance(watchlist, list) or len(watchlist) > 600:
+        logger.error("Watchlist must be a list of up to 600 stocks.")
         sys.exit(1)
 
     provider_names = config.get("providers", ["jugaad-data", "nsepython", "yfinance"])
@@ -100,13 +100,54 @@ def main():
 
     engine = AlertEngine("config.yaml", "state.json")
 
+    # If watchlist is large, use bulk yfinance to save time
+    use_bulk = len(watchlist) > 20
+    bulk_data = {}
+    if use_bulk:
+        logger.info(f"Large watchlist detected ({len(watchlist)} stocks). Using yfinance bulk download.")
+        import yfinance as yf
+        tickers = [f"{item['ticker']}.NS" for item in watchlist if item.get('ticker')]
+        try:
+            # Download all in one go
+            df = yf.download(tickers, period="10d", group_by="ticker", progress=False)
+            for item in watchlist:
+                t = item['ticker']
+                t_ns = f"{t}.NS"
+                if t_ns in df.columns.levels[0]:
+                    try:
+                        ticker_data = df[t_ns]
+                        # Get latest valid row
+                        latest = ticker_data.dropna().iloc[-1]
+                        prev = ticker_data.dropna().iloc[-2] if len(ticker_data.dropna()) > 1 else latest
+                        # We also need average volume. We can approximate with the 10d mean
+                        avg_vol = ticker_data['Volume'].mean()
+                        
+                        bulk_data[t] = {
+                            "ticker": t,
+                            "price": float(latest['Close']),
+                            "prev_close": float(prev['Close']),
+                            "volume": float(latest['Volume']),
+                            "avg_volume": float(avg_vol),
+                            "source": "yfinance-bulk",
+                            "timestamp_ist": datetime.datetime.now(ZoneInfo("Asia/Kolkata")).isoformat()
+                        }
+                    except Exception as e:
+                        logger.debug(f"Error parsing bulk data for {t}: {e}")
+        except Exception as e:
+            logger.error(f"Bulk download failed: {e}")
+
     for item in watchlist:
         ticker = item.get("ticker")
         if not ticker:
             continue
             
         logger.info(f"Processing {ticker}...")
-        quote = get_quote_with_fallback(ticker, provider_names, retries=retries, backoff=backoff)
+        
+        if use_bulk and ticker in bulk_data:
+            quote = bulk_data[ticker]
+        else:
+            quote = get_quote_with_fallback(ticker, provider_names, retries=retries, backoff=backoff)
+            
         if not quote:
             logger.error(f"Could not fetch data for {ticker}. Skipping.")
             continue
