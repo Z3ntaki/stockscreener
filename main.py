@@ -163,5 +163,14 @@ def main():
                 else:
                     logger.info(f"Sent alert for {ticker}.")
 
+    # Generate static dashboard
+    if use_bulk and bulk_data:
+        try:
+            from dashboard import generate_dashboard
+            generate_dashboard(bulk_data, watchlist, engine.state)
+            logger.info("Dashboard generated successfully.")
+        except Exception as e:
+            logger.warning(f"Dashboard generation failed: {e}")
+
 if __name__ == "__main__":
     main()

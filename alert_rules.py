@@ -6,18 +6,19 @@ import os
 
 logger = logging.getLogger(__name__)
 
+
 class AlertEngine:
     def __init__(self, config_path: str, state_path: str):
         self.state_path = state_path
         self.state = self._load_state()
-        
+
         self.daily_cap = 10
         if os.path.exists(config_path):
             import yaml
             with open(config_path, 'r') as f:
                 config = yaml.safe_load(f)
                 self.daily_cap = config.get('limits', {}).get('daily_alert_cap', 10)
-                
+
         self._rotate_state_if_needed()
 
     def _load_state(self):
@@ -49,67 +50,55 @@ class AlertEngine:
             }
             self._save_state()
 
-    def _get_news_and_sentiment(self, ticker: str) -> str:
+    def _enrich_alert(self, ticker: str) -> str:
+        """Fetch news/sentiment, technicals, and delivery data for a triggered alert."""
+        enrichment = ""
+
+        # 1. Technical indicators
         try:
-            import yfinance as yf
-            try:
-                from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-            except ImportError:
-                return "\n\n(Sentiment analysis library not installed)"
-                
-            analyzer = SentimentIntensityAnalyzer()
-            news = yf.Ticker(f"{ticker}.NS").news
-            
-            if not news:
-                return "\n\n📰 No recent news found."
-                
-            news_text = "\n\n📰 <b>Latest News & Sentiment:</b>\n"
-            for item in news[:2]:
-                content = item.get('content', {})
-                if not content:
-                    continue
-                title = content.get('title', '')
-                url_data = content.get('clickThroughUrl', {})
-                link = url_data.get('url', '') if url_data else ''
-                
-                # Calculate Sentiment
-                score = analyzer.polarity_scores(title)
-                compound = score['compound']
-                if compound >= 0.05:
-                    sentiment = "🟢 POSITIVE"
-                elif compound <= -0.05:
-                    sentiment = "🔴 NEGATIVE"
-                else:
-                    sentiment = "⚪ NEUTRAL"
-                    
-                news_text += f"• {title} [{sentiment}]\n"
-                if link:
-                    news_text += f"  <a href='{link}'>Read article</a>\n"
-            return news_text
+            from technical_indicators import get_technicals_for_ticker, format_technicals
+            technicals = get_technicals_for_ticker(ticker)
+            enrichment += format_technicals(technicals)
         except Exception as e:
-            logger.warning(f"Failed to fetch news for {ticker}: {e}")
-            return ""
+            logger.warning(f"Technicals enrichment failed for {ticker}: {e}")
+
+        # 2. Delivery % data
+        try:
+            from delivery_tracker import get_delivery_data, format_delivery_data
+            delivery = get_delivery_data(ticker)
+            enrichment += format_delivery_data(delivery)
+        except Exception as e:
+            logger.warning(f"Delivery enrichment failed for {ticker}: {e}")
+
+        # 3. News & Sentiment (Gemini AI or VADER)
+        try:
+            from sentiment import get_news_and_sentiment
+            enrichment += get_news_and_sentiment(ticker)
+        except Exception as e:
+            logger.warning(f"Sentiment enrichment failed for {ticker}: {e}")
+
+        return enrichment
 
     def check_alerts(self, quote: dict, watch_config: dict) -> list[str]:
         """Returns a list of alert messages to send, and updates state."""
         self._rotate_state_if_needed()
-        
+
         if self.state["alerts_sent_today"] >= self.daily_cap:
             logger.info("Daily alert cap reached. Skipping.")
             return []
-            
+
         ticker = quote['ticker']
         price = quote['price']
         prev_close = quote['prev_close']
-        
+
         pct_change = ((price - prev_close) / prev_close) * 100
         threshold_pct = watch_config.get('threshold_pct', 3.0)
         support = watch_config.get('support')
         resistance = watch_config.get('resistance')
-        
+
         ticker_history = self.state["history"].setdefault(ticker, [])
         alerts = []
-        
+
         # Rule 1: Threshold
         if abs(pct_change) >= threshold_pct:
             if "threshold" not in ticker_history:
@@ -119,7 +108,7 @@ class AlertEngine:
                        f"Source: {quote['source']} at {quote['timestamp_ist']}")
                 alerts.append(msg)
                 ticker_history.append("threshold")
-                
+
         # Rule 2: Support / Resistance
         if support and price <= support:
             if "support" not in ticker_history:
@@ -129,7 +118,7 @@ class AlertEngine:
                        f"Source: {quote['source']} at {quote['timestamp_ist']}")
                 alerts.append(msg)
                 ticker_history.append("support")
-                
+
         if resistance and price >= resistance:
             if "resistance" not in ticker_history:
                 msg = (f"📈 {ticker} crossed resistance!\n"
@@ -138,13 +127,13 @@ class AlertEngine:
                        f"Source: {quote['source']} at {quote['timestamp_ist']}")
                 alerts.append(msg)
                 ticker_history.append("resistance")
-                
+
         # Rule 3: Heavy Volume with Positive Sentiment (5-10% UP)
         volume = quote.get('volume')
         avg_volume = quote.get('avg_volume')
-        
-        # If the current provider didn't return avg_volume (e.g. jugaad-data), we could 
-        # try fetching it specifically here from yfinance if it's important. 
+
+        # If the current provider didn't return avg_volume (e.g. jugaad-data), we could
+        # try fetching it specifically here from yfinance if it's important.
         # For now, if we have it, we evaluate:
         if not avg_volume and quote['source'] != 'yfinance':
             # Try fetching from yfinance just for this rule
@@ -159,7 +148,7 @@ class AlertEngine:
         if volume and avg_volume:
             vol_multiplier = watch_config.get('volume_multiplier', 1.5)
             sentiment_pct = watch_config.get('sentiment_pct', 5.0)
-            
+
             if volume > (avg_volume * vol_multiplier) and pct_change >= sentiment_pct:
                 if "volume_breakout" not in ticker_history:
                     msg = (f"🚀 {ticker} HEAVY TRADE ALERT!\n"
@@ -168,12 +157,12 @@ class AlertEngine:
                            f"Source: {quote['source']} at {quote['timestamp_ist']}")
                     alerts.append(msg)
                     ticker_history.append("volume_breakout")
-                
-        # Append news only if we have alerts
+
+        # Enrich alerts with technicals, delivery %, and news/sentiment
         if alerts:
-            news_info = self._get_news_and_sentiment(ticker)
-            alerts = [a + news_info for a in alerts]
-            
+            enrichment = self._enrich_alert(ticker)
+            alerts = [a + enrichment for a in alerts]
+
         # Update daily cap count based on how many we are actually going to send
         alerts_to_send = []
         for alert in alerts:
@@ -183,8 +172,8 @@ class AlertEngine:
             else:
                 logger.info("Hit daily cap while generating alerts.")
                 break
-                
+
         if alerts_to_send:
             self._save_state()
-            
+
         return alerts_to_send

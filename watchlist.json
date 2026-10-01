@@ -1,92 +1,3008 @@
 [
   {
-    "ticker": "TCS",
-    "name": "Tata Consultancy Services",
-    "threshold_pct": 3.0,
-    "support": 3800,
-    "resistance": 4200,
+    "ticker": "360ONE",
+    "name": "360ONE",
     "volume_multiplier": 2.0,
     "sentiment_pct": 5.0
   },
   {
-    "ticker": "RELIANCE",
-    "name": "Reliance Industries",
-    "threshold_pct": 3.0,
-    "support": 2800,
-    "resistance": 3100,
+    "ticker": "ABB",
+    "name": "ABB",
     "volume_multiplier": 2.0,
     "sentiment_pct": 5.0
   },
   {
-    "ticker": "HDFCBANK",
-    "name": "HDFC Bank",
-    "threshold_pct": 3.0,
-    "support": 1400,
-    "resistance": 1700,
-    "volume_multiplier": 1.5,
-    "sentiment_pct": 4.0
-  },
-  {
-    "ticker": "INFY",
-    "name": "Infosys",
-    "threshold_pct": 4.0,
-    "support": 1400,
-    "resistance": 1750,
+    "ticker": "ACC",
+    "name": "ACC",
     "volume_multiplier": 2.0,
     "sentiment_pct": 5.0
   },
   {
-    "ticker": "ICICIBANK",
-    "name": "ICICI Bank",
-    "threshold_pct": 3.0,
-    "support": 1000,
-    "resistance": 1200,
-    "volume_multiplier": 1.5,
-    "sentiment_pct": 4.0
+    "ticker": "ACMESOLAR",
+    "name": "ACMESOLAR",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
   },
   {
-    "ticker": "ITC",
-    "name": "ITC Limited",
-    "threshold_pct": 2.5,
-    "support": 400,
-    "resistance": 500,
-    "volume_multiplier": 2.5,
-    "sentiment_pct": 4.0
+    "ticker": "AIAENG",
+    "name": "AIAENG",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
   },
   {
-    "ticker": "SBIN",
-    "name": "State Bank of India",
-    "threshold_pct": 3.5,
-    "support": 700,
-    "resistance": 850,
+    "ticker": "APLAPOLLO",
+    "name": "APLAPOLLO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AUBANK",
+    "name": "AUBANK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AWL",
+    "name": "AWL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AADHARHFC",
+    "name": "AADHARHFC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AARTIIND",
+    "name": "AARTIIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AAVAS",
+    "name": "AAVAS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ABBOTINDIA",
+    "name": "ABBOTINDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ACE",
+    "name": "ACE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ACUTAAS",
+    "name": "ACUTAAS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ADANIENSOL",
+    "name": "ADANIENSOL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ADANIENT",
+    "name": "ADANIENT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ADANIGREEN",
+    "name": "ADANIGREEN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ADANIPORTS",
+    "name": "ADANIPORTS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ADANIPOWER",
+    "name": "ADANIPOWER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ATGL",
+    "name": "ATGL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ABCAPITAL",
+    "name": "ABCAPITAL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ABREL",
+    "name": "ABREL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ABSLAMC",
+    "name": "ABSLAMC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CPPLUS",
+    "name": "CPPLUS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AEGISLOG",
+    "name": "AEGISLOG",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AEGISVOPAK",
+    "name": "AEGISVOPAK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AETHER",
+    "name": "AETHER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AFCONS",
+    "name": "AFCONS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AFFLE",
+    "name": "AFFLE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AJANTPHARM",
+    "name": "AJANTPHARM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ALKEM",
+    "name": "ALKEM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ABDL",
+    "name": "ABDL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ARE&M",
+    "name": "ARE&M",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AMBER",
+    "name": "AMBER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AMBUJACEM",
+    "name": "AMBUJACEM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ANANDRATHI",
+    "name": "ANANDRATHI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ANANTRAJ",
+    "name": "ANANTRAJ",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ANGELONE",
+    "name": "ANGELONE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ANTHEM",
+    "name": "ANTHEM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ANURAS",
+    "name": "ANURAS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "APARINDS",
+    "name": "APARINDS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "APOLLOHOSP",
+    "name": "APOLLOHOSP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "APOLLOTYRE",
+    "name": "APOLLOTYRE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "APTUS",
+    "name": "APTUS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ASAHIINDIA",
+    "name": "ASAHIINDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ASHOKLEY",
+    "name": "ASHOKLEY",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ASIANPAINT",
+    "name": "ASIANPAINT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ASTERDM",
+    "name": "ASTERDM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ASTRAL",
+    "name": "ASTRAL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ATHERENERG",
+    "name": "ATHERENERG",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ATUL",
+    "name": "ATUL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AUROPHARMA",
+    "name": "AUROPHARMA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AIIL",
+    "name": "AIIL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AVANTIFEED",
+    "name": "AVANTIFEED",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DMART",
+    "name": "DMART",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AXISBANK",
+    "name": "AXISBANK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "AZAD",
+    "name": "AZAD",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BEML",
+    "name": "BEML",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BLS",
+    "name": "BLS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BSE",
+    "name": "BSE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BAGMANE",
+    "name": "BAGMANE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BAJAJ-AUTO",
+    "name": "BAJAJ-AUTO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BAJFINANCE",
+    "name": "BAJFINANCE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BAJAJFINSV",
+    "name": "BAJAJFINSV",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BAJAJHLDNG",
+    "name": "BAJAJHLDNG",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BAJAJHFL",
+    "name": "BAJAJHFL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BALKRISIND",
+    "name": "BALKRISIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BALRAMCHIN",
+    "name": "BALRAMCHIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BANDHANBNK",
+    "name": "BANDHANBNK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BANKBARODA",
+    "name": "BANKBARODA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BANKINDIA",
+    "name": "BANKINDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MAHABANK",
+    "name": "MAHABANK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BATAINDIA",
+    "name": "BATAINDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BELRISE",
+    "name": "BELRISE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BERGEPAINT",
+    "name": "BERGEPAINT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BHARATCOAL",
+    "name": "BHARATCOAL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BDL",
+    "name": "BDL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BEL",
+    "name": "BEL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BHARATFORG",
+    "name": "BHARATFORG",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BHEL",
+    "name": "BHEL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BPCL",
+    "name": "BPCL",
     "volume_multiplier": 2.0,
     "sentiment_pct": 5.0
   },
   {
     "ticker": "BHARTIARTL",
-    "name": "Bharti Airtel",
-    "threshold_pct": 3.0,
-    "support": 1100,
-    "resistance": 1350,
+    "name": "BHARTIARTL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BHARTIHEXA",
+    "name": "BHARTIHEXA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GROWW",
+    "name": "GROWW",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BIOCON",
+    "name": "BIOCON",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BSOFT",
+    "name": "BSOFT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BBOX",
+    "name": "BBOX",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BLUESTARCO",
+    "name": "BLUESTARCO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BOSCHLTD",
+    "name": "BOSCHLTD",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "FIRSTCRY",
+    "name": "FIRSTCRY",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BRIGADE",
+    "name": "BRIGADE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BRITANNIA",
+    "name": "BRITANNIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "BIRET",
+    "name": "BIRET",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CCL",
+    "name": "CCL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CESC",
+    "name": "CESC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CGPOWER",
+    "name": "CGPOWER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CIEINDIA",
+    "name": "CIEINDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CRISIL",
+    "name": "CRISIL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CANFINHOME",
+    "name": "CANFINHOME",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CANBK",
+    "name": "CANBK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CANHLIFE",
+    "name": "CANHLIFE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CAPLIPOINT",
+    "name": "CAPLIPOINT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CGCL",
+    "name": "CGCL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CARBORUNIV",
+    "name": "CARBORUNIV",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CARTRADE",
+    "name": "CARTRADE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CASTROLIND",
+    "name": "CASTROLIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CEATLTD",
+    "name": "CEATLTD",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CEMPRO",
+    "name": "CEMPRO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CENTRALBK",
+    "name": "CENTRALBK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CDSL",
+    "name": "CDSL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CMPDI",
+    "name": "CMPDI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CHAMBLFERT",
+    "name": "CHAMBLFERT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CHENNPETRO",
+    "name": "CHENNPETRO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CHOICEIN",
+    "name": "CHOICEIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CHOLAHLDNG",
+    "name": "CHOLAHLDNG",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CHOLAFIN",
+    "name": "CHOLAFIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CIPLA",
+    "name": "CIPLA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CUB",
+    "name": "CUB",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CLEANMAX",
+    "name": "CLEANMAX",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CLEAN",
+    "name": "CLEAN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "COALINDIA",
+    "name": "COALINDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "COCHINSHIP",
+    "name": "COCHINSHIP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "COFORGE",
+    "name": "COFORGE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "COHANCE",
+    "name": "COHANCE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "COLPAL",
+    "name": "COLPAL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CAMS",
+    "name": "CAMS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CONCORDBIO",
+    "name": "CONCORDBIO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CONCOR",
+    "name": "CONCOR",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "COROMANDEL",
+    "name": "COROMANDEL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CRAFTSMAN",
+    "name": "CRAFTSMAN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CREDITACC",
+    "name": "CREDITACC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CROMPTON",
+    "name": "CROMPTON",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CUMMINSIND",
+    "name": "CUMMINSIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CUPID",
+    "name": "CUPID",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "CYIENT",
+    "name": "CYIENT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DLF",
+    "name": "DLF",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DOMS",
+    "name": "DOMS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DABUR",
+    "name": "DABUR",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DALBHARAT",
+    "name": "DALBHARAT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DATAPATTNS",
+    "name": "DATAPATTNS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DEEPAKFERT",
+    "name": "DEEPAKFERT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DEEPAKNTR",
+    "name": "DEEPAKNTR",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DELHIVERY",
+    "name": "DELHIVERY",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DEVYANI",
+    "name": "DEVYANI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DIVISLAB",
+    "name": "DIVISLAB",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DIXON",
+    "name": "DIXON",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LALPATHLAB",
+    "name": "LALPATHLAB",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DRREDDY",
+    "name": "DRREDDY",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "DUMMYHEG",
+    "name": "DUMMYHEG",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "EIDPARRY",
+    "name": "EIDPARRY",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "EIHOTEL",
+    "name": "EIHOTEL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "EMBASSY",
+    "name": "EMBASSY",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "EICHERMOT",
+    "name": "EICHERMOT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ELECON",
+    "name": "ELECON",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ELGIEQUIP",
+    "name": "ELGIEQUIP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "EMAMILTD",
+    "name": "EMAMILTD",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "EMCURE",
+    "name": "EMCURE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "EMMVEE",
+    "name": "EMMVEE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ENDURANCE",
+    "name": "ENDURANCE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ENGINERSIN",
+    "name": "ENGINERSIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ESCORTS",
+    "name": "ESCORTS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ETERNAL",
+    "name": "ETERNAL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "EXIDEIND",
+    "name": "EXIDEIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NYKAA",
+    "name": "NYKAA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "FEDERALBNK",
+    "name": "FEDERALBNK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "FACT",
+    "name": "FACT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "FINCABLES",
+    "name": "FINCABLES",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "FSL",
+    "name": "FSL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "FIVESTAR",
+    "name": "FIVESTAR",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "FORCEMOT",
+    "name": "FORCEMOT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "FORTIS",
+    "name": "FORTIS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "FRACTAL",
+    "name": "FRACTAL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GAIL",
+    "name": "GAIL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GVT&D",
+    "name": "GVT&D",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GMRAIRPORT",
+    "name": "GMRAIRPORT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GABRIEL",
+    "name": "GABRIEL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GALLANTT",
+    "name": "GALLANTT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GRSE",
+    "name": "GRSE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GICRE",
+    "name": "GICRE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GILLETTE",
+    "name": "GILLETTE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GLAND",
+    "name": "GLAND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GLAXO",
+    "name": "GLAXO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GLENMARK",
+    "name": "GLENMARK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MEDANTA",
+    "name": "MEDANTA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GPIL",
+    "name": "GPIL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GODFRYPHLP",
+    "name": "GODFRYPHLP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GODREJCP",
+    "name": "GODREJCP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GODREJIND",
+    "name": "GODREJIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GODREJPROP",
+    "name": "GODREJPROP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GRANULES",
+    "name": "GRANULES",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GRAPHITE",
+    "name": "GRAPHITE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GRASIM",
+    "name": "GRASIM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GRAVITA",
+    "name": "GRAVITA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GESHIP",
+    "name": "GESHIP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "FLUOROCHEM",
+    "name": "FLUOROCHEM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "GMDCLTD",
+    "name": "GMDCLTD",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HBLENGINE",
+    "name": "HBLENGINE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HCLTECH",
+    "name": "HCLTECH",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HDBFS",
+    "name": "HDBFS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HDFCAMC",
+    "name": "HDFCAMC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HDFCBANK",
+    "name": "HDFCBANK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HDFCLIFE",
+    "name": "HDFCLIFE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HEGAM",
+    "name": "HEGAM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HFCL",
+    "name": "HFCL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HAVELLS",
+    "name": "HAVELLS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HEROMOTOCO",
+    "name": "HEROMOTOCO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HEXT",
+    "name": "HEXT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HSCL",
+    "name": "HSCL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HINDALCO",
+    "name": "HINDALCO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HAL",
+    "name": "HAL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HINDCOPPER",
+    "name": "HINDCOPPER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HINDPETRO",
+    "name": "HINDPETRO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "name": "HINDUNILVR",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HINDZINC",
+    "name": "HINDZINC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "POWERINDIA",
+    "name": "POWERINDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HOMEFIRST",
+    "name": "HOMEFIRST",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HONASA",
+    "name": "HONASA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HONAUT",
+    "name": "HONAUT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HUDCO",
+    "name": "HUDCO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "HYUNDAI",
+    "name": "HYUNDAI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ICICIBANK",
+    "name": "ICICIBANK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ICICIGI",
+    "name": "ICICIGI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ICICIAMC",
+    "name": "ICICIAMC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ICICIPRULI",
+    "name": "ICICIPRULI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IDBI",
+    "name": "IDBI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IDFCFIRSTB",
+    "name": "IDFCFIRSTB",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IFCI",
+    "name": "IFCI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IIFL",
+    "name": "IIFL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "INOXINDIA",
+    "name": "INOXINDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IRB",
+    "name": "IRB",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IRCON",
+    "name": "IRCON",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ITCHOTELS",
+    "name": "ITCHOTELS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ITC",
+    "name": "ITC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ITI",
+    "name": "ITI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "INDIACEM",
+    "name": "INDIACEM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "INDIAMART",
+    "name": "INDIAMART",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "INDIANB",
+    "name": "INDIANB",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IEX",
+    "name": "IEX",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "INDHOTEL",
+    "name": "INDHOTEL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IOC",
+    "name": "IOC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IOB",
+    "name": "IOB",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IRCTC",
+    "name": "IRCTC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IRFC",
+    "name": "IRFC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IREDA",
+    "name": "IREDA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IGL",
+    "name": "IGL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "INDUSTOWER",
+    "name": "INDUSTOWER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "INDUSINDBK",
+    "name": "INDUSINDBK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NAUKRI",
+    "name": "NAUKRI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "INFY",
+    "name": "INFY",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "INOXWIND",
+    "name": "INOXWIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "INTELLECT",
+    "name": "INTELLECT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "INDIGO",
+    "name": "INDIGO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IGIL",
+    "name": "IGIL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IKS",
+    "name": "IKS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IPCALAB",
+    "name": "IPCALAB",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JKCEMENT",
+    "name": "JKCEMENT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JBMA",
+    "name": "JBMA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JKTYRE",
+    "name": "JKTYRE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JMFINANCIL",
+    "name": "JMFINANCIL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JSWCEMENT",
+    "name": "JSWCEMENT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JSWENERGY",
+    "name": "JSWENERGY",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JSWINFRA",
+    "name": "JSWINFRA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JSWSTEEL",
+    "name": "JSWSTEEL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JAINREC",
+    "name": "JAINREC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JPPOWER",
+    "name": "JPPOWER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "J&KBANK",
+    "name": "J&KBANK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JINDALSAW",
+    "name": "JINDALSAW",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JSL",
+    "name": "JSL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JINDALSTEL",
+    "name": "JINDALSTEL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JIOFIN",
+    "name": "JIOFIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JUBLFOOD",
+    "name": "JUBLFOOD",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JUBLINGREA",
+    "name": "JUBLINGREA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JWL",
+    "name": "JWL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "JYOTICNC",
+    "name": "JYOTICNC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KPRMILL",
+    "name": "KPRMILL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KEI",
+    "name": "KEI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KPITTECH",
+    "name": "KPITTECH",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KSB",
+    "name": "KSB",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KAJARIACER",
+    "name": "KAJARIACER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KPIL",
+    "name": "KPIL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KALYANKJIL",
+    "name": "KALYANKJIL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KARURVYSYA",
+    "name": "KARURVYSYA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KAYNES",
+    "name": "KAYNES",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KEC",
+    "name": "KEC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KFINTECH",
+    "name": "KFINTECH",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KIRLOSBROS",
+    "name": "KIRLOSBROS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KIRLOSENG",
+    "name": "KIRLOSENG",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KOTAKBANK",
+    "name": "KOTAKBANK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "KIMS",
+    "name": "KIMS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LTF",
+    "name": "LTF",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LTTS",
+    "name": "LTTS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LGEINDIA",
+    "name": "LGEINDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LICHSGFIN",
+    "name": "LICHSGFIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LTFOODS",
+    "name": "LTFOODS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LTM",
+    "name": "LTM",
     "volume_multiplier": 2.0,
     "sentiment_pct": 5.0
   },
   {
     "ticker": "LT",
-    "name": "Larsen & Toubro",
-    "threshold_pct": 3.0,
-    "support": 3300,
-    "resistance": 3800,
+    "name": "LT",
     "volume_multiplier": 2.0,
     "sentiment_pct": 5.0
   },
   {
-    "ticker": "TATAMOTORS",
-    "name": "Tata Motors",
-    "threshold_pct": 4.0,
-    "support": 900,
-    "resistance": 1100,
+    "ticker": "LAURUSLABS",
+    "name": "LAURUSLABS",
     "volume_multiplier": 2.0,
-    "sentiment_pct": 6.0
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LEMONTREE",
+    "name": "LEMONTREE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LENSKART",
+    "name": "LENSKART",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LICI",
+    "name": "LICI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LINDEINDIA",
+    "name": "LINDEINDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LLOYDSME",
+    "name": "LLOYDSME",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LODHA",
+    "name": "LODHA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "LUPIN",
+    "name": "LUPIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MMTC",
+    "name": "MMTC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MRF",
+    "name": "MRF",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MTARTECH",
+    "name": "MTARTECH",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MGL",
+    "name": "MGL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "M&MFIN",
+    "name": "M&MFIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "M&M",
+    "name": "M&M",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MANAPPURAM",
+    "name": "MANAPPURAM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MRPL",
+    "name": "MRPL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MANKIND",
+    "name": "MANKIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MARICO",
+    "name": "MARICO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MARUTI",
+    "name": "MARUTI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MFSL",
+    "name": "MFSL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MAXHEALTH",
+    "name": "MAXHEALTH",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MAZDOCK",
+    "name": "MAZDOCK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MEESHO",
+    "name": "MEESHO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MINDACORP",
+    "name": "MINDACORP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MSUMI",
+    "name": "MSUMI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MOTILALOFS",
+    "name": "MOTILALOFS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MPHASIS",
+    "name": "MPHASIS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MCX",
+    "name": "MCX",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MUTHOOTFIN",
+    "name": "MUTHOOTFIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NATCOPHARM",
+    "name": "NATCOPHARM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NBCC",
+    "name": "NBCC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NCC",
+    "name": "NCC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NHPC",
+    "name": "NHPC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NLCINDIA",
+    "name": "NLCINDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NMDC",
+    "name": "NMDC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NSLNISP",
+    "name": "NSLNISP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NTPCGREEN",
+    "name": "NTPCGREEN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NTPC",
+    "name": "NTPC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NH",
+    "name": "NH",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NATIONALUM",
+    "name": "NATIONALUM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NAVA",
+    "name": "NAVA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NAVINFLUOR",
+    "name": "NAVINFLUOR",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NESTLEIND",
+    "name": "NESTLEIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NETWEB",
+    "name": "NETWEB",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NEULANDLAB",
+    "name": "NEULANDLAB",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NAM-INDIA",
+    "name": "NAM-INDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NUVAMA",
+    "name": "NUVAMA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NUVOCO",
+    "name": "NUVOCO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "OBEROIRLTY",
+    "name": "OBEROIRLTY",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ONGC",
+    "name": "ONGC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "OIL",
+    "name": "OIL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "OLAELEC",
+    "name": "OLAELEC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "OLECTRA",
+    "name": "OLECTRA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PAYTM",
+    "name": "PAYTM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ONESOURCE",
+    "name": "ONESOURCE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "OFSS",
+    "name": "OFSS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "POLICYBZR",
+    "name": "POLICYBZR",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PCBL",
+    "name": "PCBL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PGEL",
+    "name": "PGEL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PIIND",
+    "name": "PIIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PNBHOUSING",
+    "name": "PNBHOUSING",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PTCIL",
+    "name": "PTCIL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PVRINOX",
+    "name": "PVRINOX",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PAGEIND",
+    "name": "PAGEIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PARADEEP",
+    "name": "PARADEEP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PATANJALI",
+    "name": "PATANJALI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PERSISTENT",
+    "name": "PERSISTENT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PETRONET",
+    "name": "PETRONET",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PHOENIXLTD",
+    "name": "PHOENIXLTD",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PWL",
+    "name": "PWL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PIDILITIND",
+    "name": "PIDILITIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PINELABS",
+    "name": "PINELABS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PIRAMALFIN",
+    "name": "PIRAMALFIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PPLPHARMA",
+    "name": "PPLPHARMA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "POLYMED",
+    "name": "POLYMED",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "POLYCAB",
+    "name": "POLYCAB",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "POONAWALLA",
+    "name": "POONAWALLA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PFC",
+    "name": "PFC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "POWERGRID",
+    "name": "POWERGRID",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PREMIERENE",
+    "name": "PREMIERENE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PRESTIGE",
+    "name": "PRESTIGE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PFOCUS",
+    "name": "PFOCUS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PRIVISCL",
+    "name": "PRIVISCL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "PNB",
+    "name": "PNB",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RRKABEL",
+    "name": "RRKABEL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RBLBANK",
+    "name": "RBLBANK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RECLTD",
+    "name": "RECLTD",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RHIM",
+    "name": "RHIM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RITES",
+    "name": "RITES",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RADICO",
+    "name": "RADICO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RVNL",
+    "name": "RVNL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RAILTEL",
+    "name": "RAILTEL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RAINBOW",
+    "name": "RAINBOW",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RKFORGE",
+    "name": "RKFORGE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "REDINGTON",
+    "name": "REDINGTON",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RELIANCE",
+    "name": "RELIANCE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RPOWER",
+    "name": "RPOWER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RUBICON",
+    "name": "RUBICON",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SBICARD",
+    "name": "SBICARD",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SBILIFE",
+    "name": "SBILIFE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SJVN",
+    "name": "SJVN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SHRIPISTON",
+    "name": "SHRIPISTON",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SRF",
+    "name": "SRF",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SAGILITY",
+    "name": "SAGILITY",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SAILIFE",
+    "name": "SAILIFE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SAMMAANCAP",
+    "name": "SAMMAANCAP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "MOTHERSON",
+    "name": "MOTHERSON",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SANSERA",
+    "name": "SANSERA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SARDAEN",
+    "name": "SARDAEN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SCHAEFFLER",
+    "name": "SCHAEFFLER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SCHNEIDER",
+    "name": "SCHNEIDER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SCI",
+    "name": "SCI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SHREECEM",
+    "name": "SHREECEM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SHRIRAMFIN",
+    "name": "SHRIRAMFIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SHYAMMETL",
+    "name": "SHYAMMETL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ENRIN",
+    "name": "ENRIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SIEMENS",
+    "name": "SIEMENS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SIGNATURE",
+    "name": "SIGNATURE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SOBHA",
+    "name": "SOBHA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SOLARINDS",
+    "name": "SOLARINDS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SONACOMS",
+    "name": "SONACOMS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "STARHEALTH",
+    "name": "STARHEALTH",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SBIN",
+    "name": "SBIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SAIL",
+    "name": "SAIL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "STLTECH",
+    "name": "STLTECH",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SUMICHEM",
+    "name": "SUMICHEM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SUNPHARMA",
+    "name": "SUNPHARMA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SUNTV",
+    "name": "SUNTV",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SUNDARMFIN",
+    "name": "SUNDARMFIN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SUPREMEIND",
+    "name": "SUPREMEIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SUZLON",
+    "name": "SUZLON",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SWANCORP",
+    "name": "SWANCORP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SWIGGY",
+    "name": "SWIGGY",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SYNGENE",
+    "name": "SYNGENE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "SYRMA",
+    "name": "SYRMA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TBOTEK",
+    "name": "TBOTEK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TDPOWERSYS",
+    "name": "TDPOWERSYS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TVSMOTOR",
+    "name": "TVSMOTOR",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TATACAP",
+    "name": "TATACAP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TATACHEM",
+    "name": "TATACHEM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TATACOMM",
+    "name": "TATACOMM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TCS",
+    "name": "TCS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TATACONSUM",
+    "name": "TATACONSUM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TATAELXSI",
+    "name": "TATAELXSI",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TATAINVEST",
+    "name": "TATAINVEST",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TMCV",
+    "name": "TMCV",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TMPV",
+    "name": "TMPV",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TATAPOWER",
+    "name": "TATAPOWER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TATASTEEL",
+    "name": "TATASTEEL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TATATECH",
+    "name": "TATATECH",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TTML",
+    "name": "TTML",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TECHM",
+    "name": "TECHM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TECHNOE",
+    "name": "TECHNOE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TEGA",
+    "name": "TEGA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TEJASNET",
+    "name": "TEJASNET",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TENNIND",
+    "name": "TENNIND",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "THANGAMAYL",
+    "name": "THANGAMAYL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "NIACL",
+    "name": "NIACL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "RAMCOCEM",
+    "name": "RAMCOCEM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "THERMAX",
+    "name": "THERMAX",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TIMKEN",
+    "name": "TIMKEN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TITAGARH",
+    "name": "TITAGARH",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TITAN",
+    "name": "TITAN",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TORNTPHARM",
+    "name": "TORNTPHARM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TORNTPOWER",
+    "name": "TORNTPOWER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TARIL",
+    "name": "TARIL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TRENT",
+    "name": "TRENT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TRIDENT",
+    "name": "TRIDENT",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TRITURBINE",
+    "name": "TRITURBINE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "TIINDIA",
+    "name": "TIINDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "UCOBANK",
+    "name": "UCOBANK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "UNOMINDA",
+    "name": "UNOMINDA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "UPL",
+    "name": "UPL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "UTIAMC",
+    "name": "UTIAMC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ULTRACEMCO",
+    "name": "ULTRACEMCO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "UNIONBANK",
+    "name": "UNIONBANK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "UBL",
+    "name": "UBL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "UNITDSPR",
+    "name": "UNITDSPR",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "URBANCO",
+    "name": "URBANCO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "USHAMART",
+    "name": "USHAMART",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "VTL",
+    "name": "VTL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "VBL",
+    "name": "VBL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "VAML",
+    "name": "VAML",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "VISL",
+    "name": "VISL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "VEDL",
+    "name": "VEDL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "VOGL",
+    "name": "VOGL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "VEDPOWER",
+    "name": "VEDPOWER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "VIJAYA",
+    "name": "VIJAYA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "VMM",
+    "name": "VMM",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "IDEA",
+    "name": "IDEA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "VOLTAS",
+    "name": "VOLTAS",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "WAAREEENER",
+    "name": "WAAREEENER",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "WELCORP",
+    "name": "WELCORP",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "WELSPUNLIV",
+    "name": "WELSPUNLIV",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "WHIRLPOOL",
+    "name": "WHIRLPOOL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "WIPRO",
+    "name": "WIPRO",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "WOCKPHARMA",
+    "name": "WOCKPHARMA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "YESBANK",
+    "name": "YESBANK",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ZFCVINDIA",
+    "name": "ZFCVINDIA",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ZEEL",
+    "name": "ZEEL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ZENTEC",
+    "name": "ZENTEC",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ZENSARTECH",
+    "name": "ZENSARTECH",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ZYDUSLIFE",
+    "name": "ZYDUSLIFE",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ZYDUSWELL",
+    "name": "ZYDUSWELL",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
+  },
+  {
+    "ticker": "ECLERX",
+    "name": "ECLERX",
+    "volume_multiplier": 2.0,
+    "sentiment_pct": 5.0
   }
 ]
