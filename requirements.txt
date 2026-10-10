@@ -1,6 +1,7 @@
 annotated-types==0.8.0
 anyio==4.15.1
 appdirs==1.4.4
+APScheduler==3.11.3
 beautifulsoup4==4.15.0
 brotli==1.2.0
 certifi==2026.7.22
@@ -11,7 +12,7 @@ cryptography==50.0.2
 curl_cffi==0.16.3
 distro==1.9.0
 google-auth==2.59.1
-google-genai==2.26.0
+google-genai==2.29.0
 h11==0.16.0
 httpcore==1.0.9
 httpx==0.28.1
@@ -36,6 +37,7 @@ pydantic_core==2.46.5
 Pygments==2.21.0
 pytest==9.1.1
 python-dateutil==2.9.0.post0
+python-telegram-bot==22.8
 pytz==2026.4
 PyYAML==6.0.3
 requests==2.34.2
@@ -46,6 +48,7 @@ soupsieve==2.10
 tenacity==9.1.4
 typing-inspection==0.4.4
 typing_extensions==4.16.0
+tzlocal==5.4.4
 urllib3==2.8.0
 vaderSentiment==3.3.2
 websockets==16.1.1
